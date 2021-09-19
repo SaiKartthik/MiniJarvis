@@ -16,7 +16,7 @@ rpsList = ["r","p","s"]
 
 @client.event
 async def on_ready():
-    print("Hello Everyone")
+    print("Bot is Online")
 
 @client.command()
 async def helps(ctx):
@@ -34,9 +34,8 @@ async def sayhelloto(ctx,a):
 
 @client.command()
 async def roast(ctx, a):
-    print(a)
     if a == "<@!740600494149599284>" or a == "<@740600494149599284>" or a == "<@!774888738039922708>" or a == "<@774888738039922708>":
-        await ctx.send("Nuvve chesko ")
+        await ctx.send("We dont do that here !")
 
     else:
       if(a[1] == "@"):
